@@ -1,1 +1,1 @@
-# landing-page
+this is a landing page project that i am working on to improve my skills and enhance what i have learned so far. i will start off by building the html foundation and add style later on. I will add more details here as i go along all the way until i finish the project.
