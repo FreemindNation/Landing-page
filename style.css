@@ -1,4 +1,28 @@
 .head-container {
     background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: auto;
+}
+
+ul, .para {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex end;
+    align-items: center;
+    list-style: none;
 }
