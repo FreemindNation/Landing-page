@@ -23,8 +23,6 @@ body {
     gap: 24px;
     margin: 0;
     padding: 0;
-    
-    
 }
 
 .logo {
@@ -34,6 +32,10 @@ body {
     padding: 24px 0;
 }
 
+.logo img {
+    width: 100px;
+    height: auto;
+}
 .para {
     color: #E5E7EB;
     font-size: 24px;
@@ -51,9 +53,15 @@ ul {
     align-items: center;
     list-style: none;
     gap: 24px;
-    padding: 24px 4px;
-    
-    
+    padding: 24px 4px;   
+}
+
+ul li:hover {
+    font-size: 150%;
+    background: #3c6399;
+    padding: 8px 16px;
+    border-radius: 3%;
+
 }
 
 a {
@@ -205,6 +213,14 @@ img {
 
 .button2 {
     border-color: #F9FAF8;
+}
+
+.button1:hover, .blue-container .button2:hover {
+    background: #3c6399;
+}
+
+.footer a:hover {
+    font-size: 150%;
 }
 
 
